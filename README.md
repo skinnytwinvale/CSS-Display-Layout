@@ -86,4 +86,3 @@ Note that when the flex-direction is column or column-reverse, justify-content r
 
 
 
-- inline - An inline element can wrap some text inside a paragraph without disrupting the flow of that paragraph. span is the standard inline element, but there are others too, like strong, b, and em. The a element is often the most common inline element, since they are used for links. 
