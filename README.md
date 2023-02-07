@@ -84,5 +84,23 @@ Note that when the flex-direction is column or column-reverse, justify-content r
 
 <img width="727" alt="Screenshot 2023-02-07 at 6 24 16 PM" src="https://user-images.githubusercontent.com/101606295/217390232-f84ffe9e-5ad7-417d-8317-cb8058954de4.png">
 
+- order - this property allows you to order items based on their position in the DOM. The order will start at 0, so anything lower will go higher and anything higher will go lower in the order. See the HTML and CSS
+above for some examples of setting this property, and how it affects the layout of the page.
+
+- align-self - this property allows you to overwrite the value of align-items for particular elements. It
+accepts the same values as align-items.
+
+- flex-basis - This lets you manually set the size of a flexbox element's content box. At first glance it may seem like it's synonymous with the width property, but this isn't always the case. For more details, read this Stack Overflow question.
+
+- flex-grow - This lets you set proportional sizes of flex items within the same container. For example, an element with a flex-grow value of 2 will take up twice as much space as an element with a flex-grow
+value of 1.
+
+- flex-shrink - Similar to flex-grow, but for shrinking elements when there's not enough space. A
+useful demo of this property is available at CSS Tricks.
+
+- flex - This is a shorthand which lets you set flex-grow, flex-shrink, and flex-basis all in one line (similar to the border property, which lets you set border-width, border-style, and border- color).
+
+- flex-wrap - When items in a flex container get too wide, what should happen? This property lets you tell the browser whether it should allow flex elements to wrap onto a new line, or whether they should just
+shrink in order to fit on the same line. Fore more on this, check out MDN.
 
 
