@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <title>CSS Challenge 4</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans'
+rel='stylesheet' type='text/css'>
+    <style>
+
+        aside {
+            float: right;
+            text-align: center;
+            font-family: manrope, Helvetica, sans-serif;
+            padding: 5px;
+            background-color: #e6ee9c;
+            height: 70%;
+            
+        }
+        #header {
+            float: right;
+            background-color: #e6ee9c;
+            width: 100%;
+            text-align: right;
+            padding-right: 20px;
+            height:150px;
+            font-size: 25px;
+        }
+        #nav{
+        list-style: none;
+        background-color: 339900;
+        width: 100%;
+        display: flex;
+        height: 50px;
+
+        }
+        .line {
+            border-bottom: white dashed 5px;
+            clear: both;
+            margin: 0;
+        }
+        #p { 
+
+            text-align:center;
+            line-height: 1.2;
+            text-align: left;
+            font-size: 20px;
+
+        }
+        #content {
+            
+            background-color: #669933;
+            height: 60%;
+            
+        }
+        #body {
+            margin-left: 5%;
+            margin-right: 10%;
+            margin-top: 2%;
+            background-color: #336600;
+        }
+        .copyright {
+            /* clear: both; */
+            text-align: center;
+            padding-top: 10px;
+            font-size: 14pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        #content ul {
+        list-style: none;
+            text-align: center;
+            width: 500;
+            line-height: 1.2;
+            font-size: 20px;
+        }
+        #footer {
+            background-color: #33cc66;
+            height: 85px;
+            display: flex;
+        }
+    </style>
+  </head>
+  <body id="body">
+    <div id="wrap">
+      <div id="header">
+        <h1>Shakespear.net</h1>
+      </div>
+      <div id="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Writings</a></li>
+          <li><a href="#">Sonnets</a></li>
+          <li><a href="#">Life Story</a></li>
+          <li><a href="#">About Shakespear.net</a></li>
+        <brk></brk>
+    </div>
+        <div class="line"></div>
+      </div>
+      <aside id="sidebar">
+        <h2>Sonnet Index</h2>
+        <ul>
+          <li><a href="#">Sonnet #1</a></li>
+          <li><a href="#">Sonnet #6</a></li>
+          <li><a href="#">Sonnet #11</a></li>
+          <li><a href="#">Sonnet #15</a></li>
+          <li><a href="#">Sonnet #18</a></li>
+        </ul>
+    </aside>
+      <div id="content">
+        <h1>Shakespeare's Sonnet #18</h1>
+        <p id="p">This is one of the most famous of the sonnets. It is referenced
+            in the film Dead Poets Society and gave names to the band The
+            Darling Buds and the book and television series The Darling Buds
+            of May. Read it and weep!</p>
+        
+          <ul>
+          <li>Shall I compare thee to a summer's day?</li>
+          <li>Thou art more lovely and more temperate:</li>
+          <li>Rough winds do shake the darling buds of May,</li>
+          <li>And summer's lease hath all too short a date:</li>
+          <li>Sometime too hot the eye of heaven shines,</li>
+          <li>And often is his gold complexion dimm'd,</li>
+          <li>And every fair from fair sometime declines,</li>
+          <li>By chance, or nature's changing course untrimm'd:</li>
+          <li>But thy eternal summer shall not fade,</li>
+          <li>Nor lose possession of that fair thou ow'st,</li>
+          <li>Nor shall death brag thou wander'st in his shade,</li>
+          <li>When in eternal lines to time thou grow'st,</li>
+          <li>So long as men can breathe, or eyes can see,</li>
+          <li>So long lives this, and this gives life to thee.</li>
+        </ul>
+        
+      </div>
+      <div id="footer">
+        <p class="copyright">See the 
+        <a href="http://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets">
+        Shakespeare's sonnets</a> Wikipedia article for more information
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
